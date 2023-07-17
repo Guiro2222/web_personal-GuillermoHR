@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+{% block title %}acerca de{% endblock %}
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+{% block headers %}
+	<h1>Acerca de</h1>
+	<span class="subheading">Biografía</span>
+{% endblock %}
+{% block content %}
+<div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar.png' %}" alt="">
+  </div>
+  <div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Guillermo Humberto Rodriguez</h2>   
+    <p>Nacido en CABA, Argentina, el 5 de Febrero de 1965</p>
+    <p>Técnico Químico. Trabaje durante 31 años en el rubro Petroquímico,</p>
+    <p>en el Area de Control de Calidad</p>
+    <p>Actualmente estoy inmerso en el fascinante mundo de la Inteligencia Artificial, enfocándome principalmente en la programación.</p>
+    <p>Me encuentro realizando diversos cursos para fortalecer mis habilidades tanto en el desarrollo de FrontEnd como en Backend.</p>
+  </div>
+{% endblock %}
+
+
+
+
